@@ -57,4 +57,6 @@ iSAPIENS can be run in the command line
 
 ### Execute in command line
 
-#### Need to generate mutation file using FoldX syntax (see attached example: "individual_list.txt") 
+Need to generate mutation file using FoldX syntax (see attached example: "individual_list.txt")
+
+
