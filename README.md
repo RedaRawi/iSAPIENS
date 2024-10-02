@@ -13,9 +13,11 @@ iSAPIENS has been successfully tested on Linux systems
 - Create iSAPIENS environment in command line: conda create --name iSAPIENS
 - Activate iSAPIENS environment in command line: conda activate iSAPIENS
 - Install required packages by running the following in command line:
-  - conda install -c r r
-  - conda install -c bioconda r-bio3d
-  - conda install -c r r-doparallel
-  - Download R's Interpol package (https://cran.r-project.org/src/contrib/Archive/Interpol/Interpol_1.3.1.tar.gz) and install manually:
-    - Within R terminal execute: install.packages("Interpol_1.3.1.tar.gz", source = TRUE, repos = NULL )
+  - R libraries:
+    - conda install -c r r
+    - conda install -c bioconda r-bio3d
+    - conda install -c r r-doparallel
+    - Download R's Interpol package (https://cran.r-project.org/src/contrib/Archive/Interpol/Interpol_1.3.1.tar.gz) and install manually:
+      Within R terminal execute: install.packages("Interpol_1.3.1.tar.gz", source = TRUE, repos = NULL )
+      
   - 
