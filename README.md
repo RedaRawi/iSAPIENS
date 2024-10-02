@@ -61,7 +61,11 @@ iSAPIENS can be run in the command line
 Need to generate mutation file using FoldX syntax (see attached example: "individual_list.txt")
 
 - Option 1: Interface protein interaction energies
-  R --no-save < iSAPIENS_v1.0.0.R File.pdb nCPU PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 A H_L
+  - R --no-save < iSAPIENS_v1.0.0.R File.pdb nCPU PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 A H_L
+- Option 1: Interface protein interaction energies
+  - R --no-save < iSAPIENS_v1.0.0.R File.pdb nCPU PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 H_L H_L
+- Option 1: Interface protein interaction energies
+  - R --no-save < iSAPIENS_v1.0.0.R File.pdb nCPU PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 3 A H_L H_L H_L
   
 
 
