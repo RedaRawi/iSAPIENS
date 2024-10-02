@@ -20,6 +20,8 @@ iSAPIENS has been successfully tested on Linux systems
     - Download R's Interpol package (https://cran.r-project.org/src/contrib/Archive/Interpol/Interpol_1.3.1.tar.gz) and install manually:
       Within R terminal execute: install.packages("Interpol_1.3.1.tar.gz", source = TRUE, repos = NULL )
   - FoldX (https://foldxsuite.crg.eu/)
+  - VMD (https://www.ks.uiuc.edu/Research/vmd/)
+    - We used VMD version "VMD for LINUXAMD64, version 1.9.3"
   - NAMD (https://www.ks.uiuc.edu/Research/namd/)
     - We used NAMD version "NAMD_2.13_Linux-x86_64-multicore"
     - Download required NAMD CHARMM parameter and topology files; in particular
@@ -39,4 +41,16 @@ iSAPIENS can be run in the command line
 - Antigen - Antibody complex
   - Antigen (chain A)
   - Antibody (chain H and chain L)
-- 
+- Number of CPUs
+- Path to FoldX executable
+- Path to VMD executable
+- Path to NAMD executable
+- NAMD topology files separated by "___"
+- NAMD parameter files separated by "___"
+- Path to YASARA executable
+- Path to YASARA homology modeling script (attached here: YASARA_EM.mcr)
+- Cutoff (We used 12Å)
+- Interface Chain(s) 1: We used "A"
+- Interface Chain(s) 2: We used "H_L"
+- Stability Chain(s) 1: We used "H_L"
+- Stability Chain(s) 2: We used "H_L"
