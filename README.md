@@ -50,6 +50,7 @@ iSAPIENS can be run in the command line
 - Path to YASARA executable
 - Path to YASARA homology modeling script (attached here: YASARA_EM.mcr)
 - Cutoff (We used 12Å)
+- Option (1: Interface, 2: Stability, 3: Interface + Stability)
 - Interface Chain(s) 1: We used "A"
 - Interface Chain(s) 2: We used "H_L"
 - Stability Chain(s) 1: We used "H_L"
@@ -59,6 +60,7 @@ iSAPIENS can be run in the command line
 
 Need to generate mutation file using FoldX syntax (see attached example: "individual_list.txt")
 
-R --no-save < iSAPIENS_v1.0.0.R File.pdb NCores /home/rawir/software/FoldX/foldx /usr/local/bin/vmd /home/rawir/software/NAMD_2.13_Linux-x86_64-multicore/namd2 /home/rawir/Documents/work/vrc/data/charmm/top_all36_prot.rtf___/home/rawir/Documents/work/vrc/data/charmm/top_all36_carb.rtf___/home/rawir/Documents/work/vrc/data/charmm/toppar_water_ions_namd.str /home/rawir/Documents/work/vrc/data/charmm/par_all36_prot_cu_patch.prm___/home/rawir/Documents/work/vrc/data/charmm/par_all36_carb.prm___/home/rawir/Documents/work/vrc/data/charmm/toppar_water_ions_namd.str /home/rawir/software/YASARA.app/yasara/yasara /home/rawir/Documents/work/vrc/papers/P3-43/code/software/YASARA_EM.mcr 12 2 H_L H_L
+Option 1: Interface protein interaction energies
+R --no-save < iSAPIENS_v1.0.0.R File.pdb nCPU PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 A H_L
 
 
