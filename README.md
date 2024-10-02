@@ -36,4 +36,7 @@ iSAPIENS has been successfully tested on Linux systems
 iSAPIENS can be run in the command line
 
 ### Multiple input arguments are required to run iSAPIENS
-1. 
+1. Antigen - Antibody complex
+  a. Antigen (chain A)
+  b. Antibody (chain H and chain L)
+2. 
