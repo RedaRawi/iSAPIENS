@@ -12,7 +12,7 @@ iSAPIENS has been successfully tested on Linux systems
   - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create iSAPIENS environment in command line: conda create --name iSAPIENS
 - Activate iSAPIENS environment in command line: conda activate iSAPIENS
-- Install require packages by running the following in command line:
+- Install required packages by running the following in command line:
   - conda install -c r r
   - conda install -c bioconda r-bio3d
   - conda install -c r r-doparallel
