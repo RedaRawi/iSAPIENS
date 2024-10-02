@@ -71,8 +71,8 @@ Need to generate mutation file using FoldX syntax (see attached example: "indivi
  Examples (use files provided in repository):
  
 - R --no-save < iSAPIENS_v1.0.0.R m42_HH28K_13_renum.pdb 48 PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 A H_L
-- R --no-save < iSAPIENS_v1.0.0.R m42_HH28K_13_renum.pdb 48 PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 A H_L
-- R --no-save < iSAPIENS_v1.0.0.R m42_HH28K_13_renum.pdb 48 PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 1 A H_L
+- R --no-save < iSAPIENS_v1.0.0.R m42_HH28K_13_renum.pdb 48 PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 2 H_L H_L
+- R --no-save < iSAPIENS_v1.0.0.R m42_HH28K_13_renum.pdb 48 PathToFoldx PathToVMD PathToNAMD top_all36_prot.rtf___top_all36_carb.rtf___toppar_water_ions_namd.str par_all36_prot_cu_patch.prm___par_all36_carb.prm___toppar_water_ions_namd.str PathToYASARA YASARA_EM.mcr 12 3 A H_L H_L H_L
 
 
 # Reference
