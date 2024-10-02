@@ -34,3 +34,6 @@ iSAPIENS has been successfully tested on Linux systems
 
 ## Run
 iSAPIENS can be run in the command line
+
+### Multiple input arguments are required to run iSAPIENS
+1. 
