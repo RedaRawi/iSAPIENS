@@ -7,7 +7,7 @@ iSAPIENS has been successfully tested on Linux systems
 
 
 ### Environment
-- Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html) using Python 3.7
+- Download and install conda environment for 64-bit linux or Mac (https://conda.io/miniconda.html)
   - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh (Linux)
   - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create iSAPIENS environment in command line: conda create --name iSAPIENS
