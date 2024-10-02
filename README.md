@@ -55,8 +55,6 @@ iSAPIENS can be run in the command line
 - Stability Chain(s) 1: We used "H_L"
 - Stability Chain(s) 2: We used "H_L"
 
-### 
-
 ### Execute in command line
 
 #### Need to generate mutation file using FoldX syntax (see attached example: "individual_list.txt") 
