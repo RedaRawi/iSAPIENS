@@ -59,4 +59,6 @@ iSAPIENS can be run in the command line
 
 Need to generate mutation file using FoldX syntax (see attached example: "individual_list.txt")
 
+R --no-save < iSAPIENS_v1.0.0.R File.pdb NCores /home/rawir/software/FoldX/foldx /usr/local/bin/vmd /home/rawir/software/NAMD_2.13_Linux-x86_64-multicore/namd2 /home/rawir/Documents/work/vrc/data/charmm/top_all36_prot.rtf___/home/rawir/Documents/work/vrc/data/charmm/top_all36_carb.rtf___/home/rawir/Documents/work/vrc/data/charmm/toppar_water_ions_namd.str /home/rawir/Documents/work/vrc/data/charmm/par_all36_prot_cu_patch.prm___/home/rawir/Documents/work/vrc/data/charmm/par_all36_carb.prm___/home/rawir/Documents/work/vrc/data/charmm/toppar_water_ions_namd.str /home/rawir/software/YASARA.app/yasara/yasara /home/rawir/Documents/work/vrc/papers/P3-43/code/software/YASARA_EM.mcr 12 2 H_L H_L
+
 
