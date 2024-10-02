@@ -19,5 +19,18 @@ iSAPIENS has been successfully tested on Linux systems
     - conda install -c r r-doparallel
     - Download R's Interpol package (https://cran.r-project.org/src/contrib/Archive/Interpol/Interpol_1.3.1.tar.gz) and install manually:
       Within R terminal execute: install.packages("Interpol_1.3.1.tar.gz", source = TRUE, repos = NULL )
-      
-  - 
+  - FoldX (https://foldxsuite.crg.eu/)
+  - NAMD (https://www.ks.uiuc.edu/Research/namd/)
+    - We used NAMD version "NAMD_2.13_Linux-x86_64-multicore"
+    - Download required NAMD CHARMM parameter and topology files; in particular
+      -  top_all36_prot.rtf
+      -  top_all36_carb.rtf
+      -  toppar_water_ions_namd.str
+      -  par_all36_prot_cu_patch.prm
+      -  par_all36_carb.prm
+      -  toppar_water_ions_namd.str
+  -  YASARA (https://www.yasara.org/)
+
+
+## Run
+iSAPIENS can be run in the command line
