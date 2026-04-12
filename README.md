@@ -71,7 +71,7 @@ Need to generate mutation file using FoldX syntax (see attached example: "indivi
 
 
 # Reference
-Mateo Reveiz et al.; In Silico Improvement of Highly Protective Anti-Malarial Antibodies, bioRxiv, 2022, https://www.biorxiv.org/content/10.1101/2022.04.08.487687v1
+Mateo Reveiz et al.; In Silico Improvement of Highly Protective Anti-Malarial Antibodies, iScience, 2025, https://www.sciencedirect.com/science/article/pii/S2589004225011642?via%3Dihub
 
 # Contact
 Reda Rawi: reda.rawi@nih.gov
